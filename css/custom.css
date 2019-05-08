@@ -1,6 +1,5 @@
-header {
-  background-color:#F2CF66 
-}
+
+header {background-color:#F2CF66 }
 .sidebar {
   height: 300px; 
   width: 170px; 
@@ -30,4 +29,13 @@ header {
 @media(min-width:0px) {
   sidebar {padding-top: 15px; width;}
   .sidebar h1 {font-size: 18px;}
+}
+
+.carousel{
+    width: 1000px;
+    margin:auto ;
+}
+.carousel-inner > .item > img{
+margin:auto;
+width:100%
 }
