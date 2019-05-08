@@ -1,11 +1,15 @@
 
 header {background-color:#F2CF66 }
+.landing img {
+  height:100%;
+  width: auto;
+}
 .sidebar {
   height: 300px; 
-  width: 170px; 
+  width: 200px; 
   position: fixed; 
   bottom: 10px; 
-  left: 50px;
+  left: 75px;
   padding: 10px;
   overflow: auto;
   color:white;
@@ -15,20 +19,9 @@ header {background-color:#F2CF66 }
 
 .sidebar small {text-align: center;}
 
-.main {
-  margin-left: 160px; 
-  padding: 0px 10px;
-}
-
 .main img{
   height:400px;
   width:600px;
-}
-
-/*XS  (phones)*/
-@media(min-width:0px) {
-  sidebar {padding-top: 15px; width;}
-  .sidebar h1 {font-size: 18px;}
 }
 
 .carousel{
@@ -38,4 +31,20 @@ header {background-color:#F2CF66 }
 .carousel-inner > .item > img{
 margin:auto;
 width:100%
+}
+
+/*XS  (phones)*/
+@media(min-width:0px) {
+  .landing img {height:100px; width:100px}
+  .main img {height:300px;width:100%;}
+  .sidebar {height: 100px; width: 100%; bottom: 0px; left: 0px;}
+}
+/*s-m  (tablets)*/
+@media(min-width:768px) {
+  .main {margin-left: 160px; padding: 0px 10px;}
+  
+}
+/*m-lg  (laptops-desktops)*/
+@media(min-width:992px) {
+  
 }
