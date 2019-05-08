@@ -19,11 +19,6 @@ header {background-color:#F2CF66 }
 
 .sidebar small {text-align: center;}
 
-.main {
-  margin-left: 160px; 
-  padding: 0px 10px;
-}
-
 .main img{
   height:400px;
   width:600px;
@@ -41,4 +36,15 @@ width:100%
 /*XS  (phones)*/
 @media(min-width:0px) {
   .landing img {height:100px; width:100px}
+  .main img {height:300px;width:100%;}
+  .sidebar {height: 100px; width: 100%; bottom: 0px; left: 0px;}
+}
+/*s-m  (tablets)*/
+@media(min-width:768px) {
+  .main {margin-left: 160px; padding: 0px 10px;}
+  
+}
+/*m-lg  (laptops-desktops)*/
+@media(min-width:992px) {
+  
 }
