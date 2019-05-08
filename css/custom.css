@@ -34,7 +34,7 @@ width:100%
 }
 
 /*XS  (phones)*/
-@media(min-width:0px) {
+@media(max-width:767px) {
   .landing img {height:100px; width:100px}
   .main img {height:300px;width:100%;}
   .sidebar {height: 100px; width: 100%; bottom: 0px; left: 0px;}
