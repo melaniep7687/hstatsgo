@@ -1,0 +1,33 @@
+header {
+  background-color:#F2CF66 
+}
+.sidebar {
+  height: 300px; 
+  width: 170px; 
+  position: fixed; 
+  bottom: 10px; 
+  left: 50px;
+  padding: 10px;
+  overflow: auto;
+  color:white;
+}
+
+.sidebar h1 {text-align: center;}
+
+.sidebar small {text-align: center;}
+
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+
+.main img{
+  height:400px;
+  width:600px;
+}
+
+/*XS  (phones)*/
+@media(min-width:0px) {
+  sidebar {padding-top: 15px; width;}
+  .sidebar h1 {font-size: 18px;}
+}
