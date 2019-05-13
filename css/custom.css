@@ -4,24 +4,28 @@ header {background-color:#F2CF66 }
   height:100%;
   width: auto;
 }
-.sidebar {
-  height: 300px; 
-  width: 200px; 
-  position: fixed; 
-  bottom: 10px; 
-  left: 75px;
-  padding: 10px;
-  overflow: auto;
-  color:white;
-}
+/*.sidebar {*/
+/*  height: 100px; */
+/*  width: 100%; */
+/*  position: fixed; */
+/*  bottom: 0px; */
+/*  left: 0px;*/
+/*  padding: 0px;*/
+/*  overflow: auto;*/
+/*  color:white;*/
+/*}*/
 
-.sidebar h1 {text-align: center;}
+/*.sidebar h1 {text-align: center;}*/
 
-.sidebar small {text-align: center;}
+/*.sidebar small {text-align: center;}*/
 
+/*.btn {*/
+/*  position:fixed;*/
+/*  left:10px;*/
+/*}*/
 .main img{
-  height:400px;
-  width:600px;
+  height:100px;
+  width:100px;
 }
 
 .carousel{
@@ -34,17 +38,18 @@ width:100%
 }
 
 /*XS  (phones)*/
-@media(max-width:767px) {
-  .landing img {height:100px; width:100px}
+@media(min-width:0px) {
   .main img {height:300px;width:100%;}
-  .sidebar {height: 100px; width: 100%; bottom: 0px; left: 0px;}
+  .main p {font size: 16px;}
+  
 }
 /*s-m  (tablets)*/
 @media(min-width:768px) {
-  .main {margin-left: 160px; padding: 0px 10px;}
+  /*.main {margin-left: 160px; padding: 0px 10px;}*/
+  .landing img {height:400px; width:400px}
   
 }
 /*m-lg  (laptops-desktops)*/
 @media(min-width:992px) {
-  
+  /*.sidebar {height: 350px; width: 300px; bottom: 10px; left: 175px; padding:10px;}*/
 }

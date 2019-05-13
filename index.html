@@ -12,7 +12,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet">
+  <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet">-->
 
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
@@ -65,15 +65,45 @@
     </div>
   </header>
 
-  <div class="sidebar bg-dark">
-    <h1><strong><u>Upcoming Events</u></strong></h1>
-    <small>Scroll down for more info!</small>
-    <p>
-      <ul>
-        <li><strong>Tele's Got Talent</strong> (Tuesday May 21 @3pm in the auditorium, Buy tickets now!</li>
-        <li>SGO Elections (May 30-Speeches, May 31-Election day)</li>
-      </ul>
-    </p>
+  <!--<div class="sidebar bg-dark">-->
+  <!--  <h1><strong><u>Upcoming Events</u></strong></h1>-->
+  <!--  <small>Scroll down for more info!</small>-->
+  <!--  <p>-->
+  <!--    <ul>-->
+  <!--      <li><strong>Tele's Got Talent</strong> (Tuesday May 21 @3pm in the auditorium, Buy tickets now!</li>-->
+  <!--      <li>SGO Elections (May 30-Speeches, May 31-Election day)</li>-->
+  <!--    </ul>-->
+  <!--  </p>-->
+  <!--</div>-->
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Modal">
+  Upcoming <br> Events 
+</button>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Upcoming Events</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            <ul>
+              <li><strong>Tele's Got Talent</strong> (Tuesday May 21 @3pm in the auditorium, Buy tickets now!</li>
+              <li><strong>SGO Elections</strong> (May 30-Speeches, May 31-Election day)</li>
+            </ul>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="main">
@@ -90,10 +120,12 @@
     </section>
 
     <section id="meettheteam" class="bg-light">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Meet the Team</h2>
-          <p class="lead">Carousel here for members; need images</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Meet the Team</h2>
+            <p class="lead">Carousel here for members; need images</p>
+          </div>
         </div>
       </div>
     </section>
@@ -212,7 +244,7 @@
           </div>
         </div>
       </div>
-    </div>
+  </div>
   </section>
 
   <section id="suggestions">
@@ -220,41 +252,28 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Suggestions</h2>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScsjIQ9GFL_dDJsEarHS4iz4NHF2eSD7WSAFqNE6HYKmpPPGw/viewform?usp=pp_url">click here to provide your suggestion</a>
-         
-    </section>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScsjIQ9GFL_dDJsEarHS4iz4NHF2eSD7WSAFqNE6HYKmpPPGw/viewform?usp=pp_url">Click here</a> to give us your suggestions! We will get back to you shortly. Thank you for your feedback!
 
-    <section id="suggestions">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Suggestions</h2>
-            <p class="lead">google form here</p>
-          </div>
-          
-        </div>
-      </div>
-    </section>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; HSTATSGO 2019</p>
     </div>
+    <!-- /.container -->
+  </footer>
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; HSTATSGO 2019</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
 
 </body>
 
