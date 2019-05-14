@@ -1,6 +1,32 @@
 header {background-color:#F2CF66 }
+<<<<<<< HEAD
 
 
+=======
+.landing img {
+  height:100%;
+  width: auto;
+}
+.sidebar {
+  height: 300px; 
+  width: 200px; 
+  position: fixed; 
+  bottom: 10px; 
+  left: 75px;
+  padding: 10px;
+  overflow: auto;
+  color:white;
+}
+
+.sidebar h1 {text-align: center;}
+
+.sidebar small {text-align: center;}
+
+.main img{
+  height:400px;
+  width:600px;
+}
+>>>>>>> cb3d3be205f246a2c54219fed4e681f6c060c006
 
 .carousel{
     width: 500px;
@@ -13,8 +39,10 @@ height:500px;
 }
 
 /*XS  (phones)*/
-@media(min-width:0px) {
+@media(max-width:767px) {
+  .landing img {height:100px; width:100px}
   .main img {height:300px;width:100%;}
+<<<<<<< HEAD
   .main p {font size: 16px;}
   .landing img { height:100%;width: auto;}
   
@@ -22,9 +50,22 @@ height:500px;
 /*s-m  (tablets)*/
 @media(min-width:768px) {
   .landing img {height:400px; width:400px}
+=======
+  .sidebar {height: 100px; width: 100%; bottom: 0px; left: 0px;}
+}
+/*s-m  (tablets)*/
+@media(min-width:768px) {
+  .main {margin-left: 160px; padding: 0px 10px;}
+>>>>>>> cb3d3be205f246a2c54219fed4e681f6c060c006
   
 }
 /*m-lg  (laptops-desktops)*/
 @media(min-width:992px) {
   
+<<<<<<< HEAD
+=======
+}
+.carousel-caption{
+  background-color: black;
+>>>>>>> cb3d3be205f246a2c54219fed4e681f6c060c006
 }
